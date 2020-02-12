@@ -1,0 +1,158 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: black;
+}
+
+.home{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  float: right;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  color: red;
+}
+
+body.bgIndex{
+  min-height: 1000px;
+  background-image: url(img/bg.png);
+  background-color: white;
+  background-repeat: auto;
+  background-size: 120px;
+}
+
+.emoji{
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 1000px;
+  vertical-align: center;
+  background-image: url(img/websitepg1.png); 
+  background-size: contain;
+  grid-template-columns: 500px 500px;
+  grid-row: 500px 500px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 0px;
+
+}
+  .click{
+   z-index: 10;
+   width: 500px;
+   height: 500px;
+}
+ 
+.click img{
+flex-shrink: 0;
+min-width: 100%;
+min-height: 100%;
+height: 100%;
+}
+
+body.bgDevil{
+  align-content: center;
+  justify-content: center;
+}
+
+.devil{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: auto;
+}
+
+#philly{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#philly:hover{
+  content: url('img/tagsgood.png');
+  width: 75%;
+  height: 75%;
+}
+
+.bird{
+  position: relative;
+  display: inline-block; 
+}
+
+#link1{ 
+  position: absolute;
+  top: 620px;
+  left: 10px;
+  z-index: 10;
+  width: 100px;
+  height: 280px;
+  
+}
+#link2{
+  position: absolute;
+  top: 370px;
+  left: 420px;
+  z-index: 10;
+  width: 180px;
+  height: 440px;
+ 
+}
+#link3{
+  position: absolute;
+  top: 300px;
+  left:700px;
+  z-index: 10;
+  width: 180px;
+  height: 350px;
+  
+}
+#link4{
+  position: absolute;
+  top: 600px;
+  left: 1250px;
+  z-index: 10;
+  width: 300px;
+  height: 600px;
+ 
+}
+
+#quotes{
+  display: grid;
+  color: white;
+  width: 300px;
+}
+
+.quote{
+  position: relative;
+}
+.speaker{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-top: 10px;
+}
+body.bgGhost{
+  color: white;
+  align-content: center;
+  justify-content: center;
+
+}
+.winter{
+  padding-top: 30px;
+  width: 29%;
+  font-size: 28px;
+  margin: auto;
+  font-family: 'Courier new', monospace;
+
+
+}
+
+
+
+
+
+
