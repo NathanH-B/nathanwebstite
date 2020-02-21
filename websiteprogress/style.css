@@ -121,24 +121,31 @@ body.bgDevil{
 }
 
 #quotes{
-  display: grid;
   color: white;
   width: 300px;
 }
 
 .quote{
   position: relative;
+  left: 600px;
+  padding-top: 55px;
+  width: 120%;
+  font-size: 22px;
+  margin: auto;
+  font-family: 'Courier new', monospace;
 }
 .speaker{
   position: absolute;
   bottom: 0px;
-  right: 0px;
+  left: 400px;
   padding-top: 10px;
+  color: white;
 }
 body.bgGhost{
   color: white;
   align-content: center;
   justify-content: center;
+  padding-bottom: 40px;
 
 }
 .winter{
@@ -147,12 +154,5 @@ body.bgGhost{
   font-size: 28px;
   margin: auto;
   font-family: 'Courier new', monospace;
-
-
 }
-
-
-
-
-
 
